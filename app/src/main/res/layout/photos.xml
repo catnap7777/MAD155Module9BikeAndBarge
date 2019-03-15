@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imgBike"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/txtDescription"
+            android:padding="15sp"
+            app:srcCompat="@drawable/cat_small" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBike"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imgBarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/txtDescription"
+            android:padding="15sp"
+            app:srcCompat="@drawable/george_sm" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBarge"
+            android:textSize="30sp" />
+    </TableRow>
+    <TableRow>
+        <ImageView
+            android:id="@+id/imgBudapest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/txtDescription"
+            android:padding="15sp"
+            app:srcCompat="@drawable/lips_sm" />
+
+        <TextView
+            android:layout_width="600dp"
+            android:layout_height="wrap_content"
+            android:text="@string/txtBudapest"
+            android:textSize="30sp" />
+    </TableRow>
+
+</TableLayout>

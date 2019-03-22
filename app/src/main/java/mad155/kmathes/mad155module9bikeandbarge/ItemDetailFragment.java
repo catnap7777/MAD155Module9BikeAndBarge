@@ -18,6 +18,7 @@ import mad155.kmathes.mad155module9bikeandbarge.dummy.DummyContent;
  * in two-pane mode (on tablets) or a {@link ItemDetailActivity}
  * on handsets.
  */
+
 public class ItemDetailFragment extends Fragment {
     /**
      * The fragment argument representing the item ID that this fragment
